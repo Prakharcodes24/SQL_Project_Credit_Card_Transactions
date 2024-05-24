@@ -25,4 +25,4 @@ By leveraging following SQL queries,actionable insights regarding the data of cr
 
 **Business Insights**: Analyzing top spending cities to further understand their demographics and spending pattern,identifying existence of seasonal trends or promotional activites linked to specific card types,city specific spending preferences and female customer behavior,thereby identify potential areas to target marketing efforts towards them.It also suggests potential for targeted promotions or special offers during weekends and higher card adoption rates or a more concentrated customer base in cities with high transaction rates.
 
-A deeper understanding of customer base in order to optimize marketing campaigns, develop targeted product offerings and improve overall business strategies.
+_A deeper understanding of customer base in order to optimize marketing campaigns, develop targeted product offerings and improve overall business strategies._
