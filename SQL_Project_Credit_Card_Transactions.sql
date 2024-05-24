@@ -1,25 +1,3 @@
-------SQL Project-1 Credit_Card_Transactions----------------
-
---to display table credit_card_transactions
-select distinct *
-from credit_card_transactions
-
---to get distinct cities in table
-select distinct city
-from credit_card_transactions	
-
---to get distinct types of card used
-select distinct card_type
-from credit_card_transactions	
-
---to get different types of expenses for which credit card is being used
-select distinct exp_type
-from credit_card_transactions
-
---to get duration of transactions under our consideration
-select datediff(day,min(transaction_date),max(transaction_date))as Duration
-from credit_card_transactions
-
 --1.write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends
 with total_amt_cte as
 (select sum(cast (amount as bigint)) as total_spend
