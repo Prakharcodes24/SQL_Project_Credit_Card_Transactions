@@ -1,0 +1,19 @@
+--to display table credit_card_transactions
+select distinct *
+from credit_card_transactions
+
+--to get distinct cities in table
+select distinct city
+from credit_card_transactions	
+
+--to get distinct types of card used
+select distinct card_type
+from credit_card_transactions	
+
+--to get different types of expenses for which credit card is being used
+select distinct exp_type
+from credit_card_transactions
+
+--to get duration of transactions under our consideration
+select datediff(day,min(transaction_date),max(transaction_date))as Duration
+from credit_card_transactions
